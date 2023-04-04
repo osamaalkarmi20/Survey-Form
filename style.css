@@ -1,0 +1,43 @@
+h1,#description{ text-align: center;
+ }
+ body{background-image: url("an.png");
+    background-repeat: no-repeat;
+   color:white;
+    background-size: cover;
+  
+   }
+    
+#s{background-color: hsl(255, 100%, 20%) ;
+    border-radius: 2%;
+    background-size: 11%;
+    margin-inline-end: 10%;
+    margin-inline-start: 10%;
+    display: flex;
+    flex-flow: column;
+ 
+
+    
+      
+    }
+   .input-fields{ margin-left: 25%; 
+    display: flex;
+    flex-flow: column-reverse;
+ 
+
+   }
+ input.input-fields,#dropdown,textarea {  min-height: 20px;
+    width: 40%;
+  
+    resize: vertical;
+}
+#submit{
+    background-color: greenyellow;
+    display: block;
+    width: 40%;
+    padding: 0.75rem;
+   
+  
+    border-radius: 23px;
+    cursor: pointer;
+}
+

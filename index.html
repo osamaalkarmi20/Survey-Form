@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR SURVEY</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+ <header>
+    <h1 id=title>HR SURVEY </h1>
+    <p id="description">this fourm is made by and HR employee to help seek the best job to you as your own spesifications .</p>
+</header>
+<div id="s">
+    <main>
+        <form id="survey-form">
+        <div id="input-fields">
+            <label  id="name-label" class="input-fields"><p>Name:</p></label>
+            <input id="name" type="text" name="name"  required placeholder="first-last name"  class="input-fields" >
+            <label id="email-label" class="input-fields"><p>Email:</p></label>
+            <input id="email" type="email" name="email"  class="input-fields"   required placeholder="example@E-mail.com">
+            <label id="number-label" class="input-fields"><P>Age:</P></label>
+            <input id="number" type="number" name="number" class="input-fields" min="18" max="100" placeholder="18+">
+         </div>
+         <div id="dropdown-div" >
+            <label id="dropdown-label" class="input-fields"> <P>CITY LOCATION: </P></label>
+            <select id="dropdown" name="city" class="input-fields">
+ <option value="AMMAN">AMMAN</option>
+ <option value="IRBID">IRBID</option>
+<option value="ZARQAA">ZARQAA</option>
+              
+            </select>
+         </div>
+         <div id="button-radio" class="input-fields">
+            
+            <label id="job-label"><p>GENDER</p></label>
+            <input type="radio"  name="gender" value="gender" checked>MALE
+            <input type="radio"  name="gender" value="gender"  >FEMALE
+          </div>
+          <div id="button-checkbox" class="input-fields">
+            <label id="os-label"><p>which transportation methods you use:</p></label>
+            <input class="checkbox"type="checkbox" name="t1" value="bus" checked> bus
+            <input  class="checkbox" type="checkbox" name="t2" value="train"> train
+            <input class="checkbox" type="checkbox" name="t3" value="car"> car
+            <input  class="checkbox" type="checkbox" name="t4" value="bike"> bike
+            <input   class="checkbox"type="checkbox" name="t5" value="motorcycle"> motorcycle
+            <input class="checkbox" type="checkbox" name="t6" value="taxi"> taxi
+          </div>
+    </main>
+
+          <footer>
+            <label id="comments-label" class="input-fields">please add a comment about the job you are seeking what is the abilities you offer:</label>
+            <textarea  class="input-fields" placeholder="comment"></textarea>
+            <input id="submit" type="submit" class="input-fields">
+          </footer>
+        </form>
+    </div>
+</div>
+</body>
+
+</html>
